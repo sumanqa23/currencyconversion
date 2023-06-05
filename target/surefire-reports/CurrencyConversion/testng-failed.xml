@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [CurrencyConversion]">
+  <test name="EuroToPound(failed)">
+    <classes>
+      <class name="com.xe.currencyconverter.ccproject.CurrencyConversions">
+        <methods>
+          <include name="initiateExtentReports"/>
+          <include name="convertCurrencies"/>
+          <include name="flushReports"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.xe.currencyconverter.ccproject.CurrencyConversions -->
+    </classes>
+  </test> <!-- EuroToPound(failed) -->
+</suite> <!-- Failed suite [CurrencyConversion] -->

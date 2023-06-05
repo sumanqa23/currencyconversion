@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-03T19:06:55Z" name="Default suite" finished-at="2023-06-03T19:07:39Z" duration-ms="43533">
+    <groups>
+    </groups>
+    <test started-at="2023-06-03T19:06:55Z" name="Default test" finished-at="2023-06-03T19:07:39Z" duration-ms="43533">
+      <class name="com.xe.currencyconverter.ccproject.CurrencyConversions">
+        <test-method is-config="true" signature="initiateExtentReports()[pri:0, instance:com.xe.currencyconverter.ccproject.CurrencyConversions@5a5338df]" started-at="2023-06-04T00:36:55Z" name="initiateExtentReports" finished-at="2023-06-04T00:36:56Z" duration-ms="542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateExtentReports -->
+        <test-method signature="convertCurrencies()[pri:0, instance:com.xe.currencyconverter.ccproject.CurrencyConversions@5a5338df]" started-at="2023-06-04T00:36:56Z" name="convertCurrencies" finished-at="2023-06-04T00:37:38Z" duration-ms="42349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertCurrencies -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.xe.currencyconverter.ccproject.CurrencyConversions@5a5338df]" started-at="2023-06-04T00:37:38Z" name="getResult" finished-at="2023-06-04T00:37:38Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=convertCurrencies status=SUCCESS method=CurrencyConversions.convertCurrencies()[pri:0, instance:com.xe.currencyconverter.ccproject.CurrencyConversions@5a5338df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:com.xe.currencyconverter.ccproject.CurrencyConversions@5a5338df]" started-at="2023-06-04T00:37:38Z" name="flushReports" finished-at="2023-06-04T00:37:39Z" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- com.xe.currencyconverter.ccproject.CurrencyConversions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
